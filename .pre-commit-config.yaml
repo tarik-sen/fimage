@@ -17,12 +17,6 @@ repos:
       - id: flake8
         types: [python]
 
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: master
-    hooks:
-      - id: commitizen
-        stages: [commit-msg]
-
   - repo: local
     hooks:
       - id: pytest
